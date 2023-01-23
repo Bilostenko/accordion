@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+
+  100% {
+    background: #b22cff;
+  }
+}
+
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+
+  100% {
+    background: #b22cff;
+  }
+}
+
+
+.wrapper {
+  height: 500px;
+  width: 800px;
+  margin: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs__wrapper>div {
+  padding: 10px 40px;
+  border: 2px solid black;
+  font-size: 34px;
+  background-color: azure;
+  cursor: pointer;
+}
+.tabs__wrapper>div:hover{
+  scale: 1.2;
+}
+
+.tabs__wrapper {
+  display: flex;
+  gap: 20px;
+  margin-left: 20%;
+}
+
+.tabs__content-wrapper {
+  border: 2px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: azure;
+}
+.tabs__content-wrapper:hover{
+  scale: 1.01;
+}
+.tabs__title {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.tab__info {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.kenburns-top {
+	-webkit-animation: kenburns-top 1s ease-out reverse both;
+	        animation: kenburns-top 1s ease-out reverse both;
+}
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
