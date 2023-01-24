@@ -1,11 +1,8 @@
-/* const tab1 = document.querySelector('#tab1') */
-/* const tab2 = document.querySelector('#tab2') */
-/* const tab3 = document.querySelector('#tab3') */
+
 const tabs = document.querySelectorAll('.tab')
 const content = document.querySelectorAll('.tabs__info')
 const text = document.querySelectorAll('.tabs__info-text')
-/* const tabInfo = document.querySelectorAll('.tab__info') */
-/* const background = document.querySelectorAll('.tab_background') */
+
 
 
 
